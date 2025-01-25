@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Page",
+  description: "Contact Page",
+  keywords: ['Contact Page', 'Next.js', 'React', 'TypeScript'],
+};
 
 export default function ContactPage() {
   return (
