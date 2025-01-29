@@ -21,7 +21,7 @@ export const Navbar = async () => {
 
       <div className="flex flex-1"></div>
       {
-        navItems.map((navItem, index) => {
+        navItems.map((navItem) => {
           return (
             <ActiveLink key={navItem.path} {...navItem} />
           )
